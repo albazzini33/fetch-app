@@ -22,11 +22,11 @@ Route  | Query Params
 
 ## Program usage: ##
 
-The program utilizes the Flask framework and requires an environment with flask installed. Additionally, python-dotenv will need to be installed to ensure the .flaskenv file is correctly used to set environment variables. Both of these can be installed with pip:
+The program utilizes the Flask framework and requires an environment with Flask installed. Additionally, python-dotenv will need to be installed to ensure the .flaskenv file is correctly used to set environment variables. Both Flask and python-dotenv can be installed with pip: (Note: best method would be to set up a virtual environment. Info on how to do that can be found [here](https://docs.python.org/3/library/venv.html))
 
 `pip install Flask python-dotenv`
 
-Once installed, the command `flask run` in the backend directory will start the server. (Necessary files are contained in a backend folder in the root directory to allow organized addition of front end components in the future)
+Once installed, the command `flask run` or `python -m flask run` in the backend directory will start the server. (Necessary files are contained in a backend folder in the root directory to allow organized addition of front end components in the future)
 
 To send requests, simply follow the routes and parameters outline above. Here are some sample requests:
 
