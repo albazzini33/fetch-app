@@ -32,14 +32,13 @@ Once installed, the command “flask run” in the backend directory will start 
 
 To send requests, simply follow the routes and parameters outline above. Here are some sample requests:
 
-JOE, 1000 points at 2020-11-01T14:00:00Z
-http://<span></span>127.0.0.1:5000/transaction?payer=JOE&points=1000&timestamp=2020-11-01T14:00:00Z
 
-Spend 500 points
-http://<span></span>127.0.0.1:5000/spend?points=500
+Action  | Request
+------------- | -------------
+JOE, 1000 points at 2020-11-01T14:00:00Z  | http://<span></span>127.0.0.1:5000/transaction?payer=JOE&points=1000&timestamp=2020-11-01T14:00:00Z
+Spend 500 points  | http://<span></span>127.0.0.1:5000/spend?points=500
+Check balance | http://<span></span>127.0.0.1:5000/balance
 
-Check balance
-http://<span></span>127.0.0.1:5000/balance
 
 Requests can either be made directly on a browser or more systematically with an app like Postman.
 
